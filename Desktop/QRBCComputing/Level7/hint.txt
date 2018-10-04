@@ -1,0 +1,10 @@
+use radare2
+
+enter the below
+r2 Level7
+aa
+s main
+v main
+
+Then us the arrow keys to look around
+

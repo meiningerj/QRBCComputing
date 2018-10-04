@@ -1,0 +1,1 @@
+You can run C programs by typing the command ./{filename}
