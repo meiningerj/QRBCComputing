@@ -5,6 +5,7 @@ SCREEN_HEIGHT = 600
 
 
 class MyGame(arcade.Window):
+    """ Main application class. """
 
     def __init__(self, width, height):
         super().__init__(width, height)
@@ -16,20 +17,13 @@ class MyGame(arcade.Window):
         pass
 
     def on_draw(self):
-        # Your drawing code goes here
+        """ Render the screen. """
         arcade.start_render()
-
-
-    def on_key_press(self, key, modifiers):
-        """Called whenever a key is pressed. """
-
-
-    def on_key_release(self, key, modifiers):
-        """Called when the user releases a key. """
-
+        # Your drawing code goes here
 
     def update(self, delta_time):
-        # All the logic to move, and the game logic goes here.
+        """ All the logic to move, and the game logic goes here. """
+        pass
 
 
 def main():
